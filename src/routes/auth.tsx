@@ -16,7 +16,8 @@ export const Route = createFileRoute("/auth")({
       { title: "Sign in — AttendMate" },
       {
         name: "description",
-        content: "Sign in or create your AttendMate account to track attendance and plan your semester.",
+        content:
+          "Sign in or create your AttendMate account to track attendance and plan your semester.",
       },
       { property: "og:title", content: "Sign in — AttendMate" },
       {
@@ -31,6 +32,13 @@ export const Route = createFileRoute("/auth")({
 const emailSchema = z.string().trim().email("Enter a valid email address").max(255);
 const passwordSchema = z.string().min(6, "Password must be at least 6 characters").max(72);
 const nameSchema = z.string().trim().min(2, "Enter your full name").max(100);
+
+function authErrorMessage(error: unknown): string {
+  const message = error instanceof Error ? error.message : String(error);
+  return message === "Failed to fetch"
+    ? "Could not reach the authentication service. Check your network and Supabase project URL."
+    : message;
+}
 
 function AuthPage() {
   const navigate = useNavigate();
@@ -56,57 +64,63 @@ function AuthPage() {
     const email = emailSchema.safeParse(form.email);
     if (!email.success) return setError(email.error.issues[0]!.message);
 
-    if (forgot) {
-      setLoading("email");
-      const { error: resetError } = await supabase.auth.resetPasswordForEmail(email.data, {
-        redirectTo: `${window.location.origin}/reset-password`,
-      });
-      setLoading(null);
-      if (resetError) return setError(resetError.message);
-      toast.success("Reset link sent", { description: "Check your inbox for the reset email." });
-      setForgot(false);
-      return;
+    let passwordValue = "";
+    let nameValue = "";
+    if (!forgot) {
+      const password = passwordSchema.safeParse(form.password);
+      if (!password.success) return setError(password.error.issues[0]!.message);
+      passwordValue = password.data;
+      if (mode === "signup") {
+        const name = nameSchema.safeParse(form.name);
+        if (!name.success) return setError(name.error.issues[0]!.message);
+        nameValue = name.data;
+      }
     }
-
-    const password = passwordSchema.safeParse(form.password);
-    if (!password.success) return setError(password.error.issues[0]!.message);
 
     setLoading("email");
-    if (mode === "signup") {
-      const name = nameSchema.safeParse(form.name);
-      if (!name.success) {
-        setLoading(null);
-        return setError(name.error.issues[0]!.message);
+    try {
+      if (forgot) {
+        const { error: resetError } = await supabase.auth.resetPasswordForEmail(email.data, {
+          redirectTo: `${window.location.origin}/reset-password`,
+        });
+        if (resetError) return setError(authErrorMessage(resetError));
+        toast.success("Reset link sent", { description: "Check your inbox for the reset email." });
+        setForgot(false);
+        return;
       }
-      const res = await signUp(name.data, email.data, password.data);
-      setLoading(null);
-      if (res.error) {
-        return setError(res.error);
-      }
-      toast.success("Account created", { description: "Setting up your semester…" });
-      navigate({ to: "/onboarding" });
-      return;
-    }
 
-    const res = await signIn(email.data, password.data);
-    setLoading(null);
-    if (res.error) {
-      return setError(res.error);
+      if (mode === "signup") {
+        const res = await signUp(nameValue, email.data, passwordValue);
+        if (res.error) return setError(authErrorMessage(res.error));
+        toast.success("Account created", { description: "Setting up your semester…" });
+        navigate({ to: "/onboarding" });
+        return;
+      }
+
+      const res = await signIn(email.data, passwordValue);
+      if (res.error) return setError(authErrorMessage(res.error));
+      toast.success("Welcome back!");
+      navigate({ to: "/dashboard" });
+    } catch (authError) {
+      setError(authErrorMessage(authError));
+    } finally {
+      setLoading(null);
     }
-    toast.success("Welcome back!");
-    navigate({ to: "/dashboard" });
   }
 
   async function handleDemo() {
     setError(null);
     setLoading("demo");
-    const res = await demoLogin();
-    setLoading(null);
-    if (res.error) {
-      return setError(res.error);
+    try {
+      const res = await demoLogin();
+      if (res.error) return setError(res.error);
+      toast.success("Demo session started", { description: "Loaded pre-seeded semester data." });
+      navigate({ to: "/dashboard" });
+    } catch (demoError) {
+      setError(demoError instanceof Error ? demoError.message : "Unexpected demo sign-in error");
+    } finally {
+      setLoading(null);
     }
-    toast.success("Demo session started", { description: "Loaded pre-seeded semester data." });
-    navigate({ to: "/dashboard" });
   }
 
   return (
@@ -199,7 +213,10 @@ function AuthPage() {
             )}
 
             {error && (
-              <p role="alert" className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">
+              <p
+                role="alert"
+                className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive"
+              >
                 {error}
               </p>
             )}
@@ -210,7 +227,12 @@ function AuthPage() {
             </Button>
 
             {forgot && (
-              <Button type="button" variant="ghost" className="w-full" onClick={() => setForgot(false)}>
+              <Button
+                type="button"
+                variant="ghost"
+                className="w-full"
+                onClick={() => setForgot(false)}
+              >
                 Back to sign in
               </Button>
             )}
@@ -219,7 +241,8 @@ function AuthPage() {
           {!forgot && (
             <>
               <div className="my-5 flex items-center gap-3 text-xs text-muted-foreground">
-                <span className="h-px flex-1 bg-border" /> or <span className="h-px flex-1 bg-border" />
+                <span className="h-px flex-1 bg-border" /> or{" "}
+                <span className="h-px flex-1 bg-border" />
               </div>
               <Button
                 variant="outline"
