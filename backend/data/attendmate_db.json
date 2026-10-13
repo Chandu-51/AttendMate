@@ -1,0 +1,1229 @@
+{
+  "users": [
+    {
+      "id": "demo-student-id-001",
+      "email": "demo@college.edu",
+      "password": "password123",
+      "full_name": "Dheeraj Vemuri",
+      "created_at": "2026-09-22T01:53:30.521Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "demo-student-id-001",
+      "full_name": "Dheeraj Vemuri",
+      "email": "demo@college.edu",
+      "college": "Institute of Technology",
+      "semester": "4-1",
+      "section": "A",
+      "min_attendance": 75,
+      "target_attendance": 80,
+      "semester_start": "2026-07-14",
+      "semester_end": "2026-11-11",
+      "onboarded": true,
+      "created_at": "2026-09-22T01:53:30.524Z",
+      "updated_at": "2026-09-22T01:53:30.524Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "user_id": "demo-student-id-001",
+      "name": "Data Structures",
+      "code": "CS201",
+      "faculty": "Dr. R. Menon",
+      "color": "cyan",
+      "target_percentage": 75,
+      "created_at": "2026-09-22T01:53:30.526Z",
+      "updated_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "user_id": "demo-student-id-001",
+      "name": "Database Management Systems",
+      "code": "CS203",
+      "faculty": "Prof. A. Iyer",
+      "color": "violet",
+      "target_percentage": 75,
+      "created_at": "2026-09-22T01:53:30.526Z",
+      "updated_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "user_id": "demo-student-id-001",
+      "name": "Operating Systems",
+      "code": "CS205",
+      "faculty": "Dr. S. Rao",
+      "color": "amber",
+      "target_percentage": 75,
+      "created_at": "2026-09-22T01:53:30.527Z",
+      "updated_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "user_id": "demo-student-id-001",
+      "name": "Computer Networks",
+      "code": "CS207",
+      "faculty": "Prof. K. Nair",
+      "color": "emerald",
+      "target_percentage": 75,
+      "created_at": "2026-09-22T01:53:30.527Z",
+      "updated_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "user_id": "demo-student-id-001",
+      "name": "Software Testing",
+      "code": "CS209",
+      "faculty": "Dr. M. Gupta",
+      "color": "blue",
+      "target_percentage": 75,
+      "created_at": "2026-09-22T01:53:30.527Z",
+      "updated_at": "2026-09-22T01:53:30.527Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "a47fab73-5dcb-4d85-91ae-ed468d9520f5",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-07-16",
+      "status": "present",
+      "class_number": 1,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "009a1794-657d-47a8-9273-948110550e4d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-07-20",
+      "status": "present",
+      "class_number": 2,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "31b8a4bf-b511-4e52-939f-f59cb95aeb3d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-07-23",
+      "status": "present",
+      "class_number": 3,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c3a690e7-9fbb-4744-8499-8c82c6855c88",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-07-27",
+      "status": "present",
+      "class_number": 4,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c9cb10f6-7c8e-4bd4-9d05-a799525518c2",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-07-30",
+      "status": "present",
+      "class_number": 5,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c08d31f0-8ca7-4861-856b-f60a9e9b8378",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-03",
+      "status": "present",
+      "class_number": 6,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "e13db971-cf5a-4529-9cbf-f388a88374fa",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-06",
+      "status": "absent",
+      "class_number": 7,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "da90b60a-1192-4fda-90eb-47b867f1abb4",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-10",
+      "status": "present",
+      "class_number": 8,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "47f3cba9-c2d7-4b72-b239-e9bd1b7748e3",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-13",
+      "status": "present",
+      "class_number": 9,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "9b71e670-2f1e-4692-94c0-c92cb9a04222",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-17",
+      "status": "present",
+      "class_number": 10,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "49e8ae8e-e300-4e38-8b11-7c6dd8fadf09",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-20",
+      "status": "present",
+      "class_number": 11,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "10f33cf1-0c69-4003-bcb2-a34cf5c3692d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-24",
+      "status": "present",
+      "class_number": 12,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "37bdc1ea-39a5-4eba-b169-3ae1579ea3d1",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-27",
+      "status": "present",
+      "class_number": 13,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "541d40b3-26b5-4bad-8c1c-3d7aa679b958",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-08-31",
+      "status": "present",
+      "class_number": 14,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "b426bc3c-9bc4-4417-827c-234519866b91",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-03",
+      "status": "present",
+      "class_number": 15,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "a6c4cf4a-ab8e-45ec-afe5-1011cbb05de7",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-07",
+      "status": "present",
+      "class_number": 16,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c4a1f5db-34a3-416f-a629-7d3dbcf69f21",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-10",
+      "status": "present",
+      "class_number": 17,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "05af731e-2dfb-40eb-997b-d7d9b8c17e29",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-14",
+      "status": "present",
+      "class_number": 18,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "d16e39af-0aa4-41f6-853d-3a09edb05ab4",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-17",
+      "status": "present",
+      "class_number": 19,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "c53beb3f-fd10-462b-a204-af350e2e75f3",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "date": "2026-09-21",
+      "status": "present",
+      "class_number": 20,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "ae44e584-465f-40a7-8362-0a50a3a61bf9",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-14",
+      "status": "present",
+      "class_number": 1,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "65729c25-03c7-4979-9109-18c4e151ce3d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-17",
+      "status": "absent",
+      "class_number": 2,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "8cddfbde-56ed-4adc-aabe-08f0feb264bd",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-21",
+      "status": "present",
+      "class_number": 3,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "e8c8c6ad-2860-4256-a593-322332d89c48",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-24",
+      "status": "present",
+      "class_number": 4,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "9d8925d7-b213-4b52-ae0d-052674c8a7e4",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-28",
+      "status": "present",
+      "class_number": 5,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "9eea0577-2cc4-45a9-9d87-ad1916b69329",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-07-31",
+      "status": "present",
+      "class_number": 6,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "bdd2e123-cda9-4b5a-8c55-f2fe5142229c",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-04",
+      "status": "present",
+      "class_number": 7,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "de03ebfc-e38e-41e0-b3c0-55cd0099134e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-07",
+      "status": "absent",
+      "class_number": 8,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "cc10bb43-c99b-47df-bb48-eabfde95f495",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-11",
+      "status": "absent",
+      "class_number": 9,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "bc8c3781-f8cb-422a-88f7-8ad5b71482e6",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-14",
+      "status": "present",
+      "class_number": 10,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "6b0b0c02-5b67-4324-a9ee-76a105282437",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-18",
+      "status": "present",
+      "class_number": 11,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "2eab4571-e295-41d1-a230-ab0cc8efdb43",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-21",
+      "status": "present",
+      "class_number": 12,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "a3668afd-fade-4e7d-a8ea-0407ec43a67c",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-25",
+      "status": "present",
+      "class_number": 13,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "0cd0b9a6-e340-4edb-8c8a-edea600ee1c7",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-08-28",
+      "status": "present",
+      "class_number": 14,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "f0a25396-7dd5-4169-9675-3343ebbb631e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-01",
+      "status": "present",
+      "class_number": 15,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "11b5fe07-fdfe-4c44-82e0-17a4902ba2e2",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-04",
+      "status": "absent",
+      "class_number": 16,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "77064652-7eb9-4cf7-aaa2-aa891968733a",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-08",
+      "status": "present",
+      "class_number": 17,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "a534ba82-fb31-4ce8-bc75-8f8df2095113",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-11",
+      "status": "present",
+      "class_number": 18,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "b55ea669-aeb3-4b4a-aa0c-21a77fb89b2e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-15",
+      "status": "present",
+      "class_number": 19,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "bdb2478d-c447-46a5-ba57-4f28f66806cf",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "date": "2026-09-18",
+      "status": "present",
+      "class_number": 20,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "bb324db6-2175-4216-8578-a1ff077cde95",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-07-15",
+      "status": "absent",
+      "class_number": 1,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e3e12833-8850-4dbf-926f-9235665f6914",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-07-20",
+      "status": "present",
+      "class_number": 2,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "759de46b-34e4-43cb-85c1-cec6533bddc0",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-07-22",
+      "status": "present",
+      "class_number": 3,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "7fea3cc8-0721-4fa3-b903-dc0f52ca7978",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-07-27",
+      "status": "present",
+      "class_number": 4,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "3ab6d142-a8ad-414c-8100-8adcd502ef03",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-07-29",
+      "status": "present",
+      "class_number": 5,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "d8fc50e6-d16d-4393-baa8-1a04a27d1000",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-03",
+      "status": "present",
+      "class_number": 6,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "ff6377d6-fc37-4aa5-b303-e35f93bd9993",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-05",
+      "status": "present",
+      "class_number": 7,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e98fc04f-ebb6-4d1e-96a0-155302c441e9",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-10",
+      "status": "present",
+      "class_number": 8,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "3e709017-41e8-45ba-842c-fa1c17ae6f0f",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-12",
+      "status": "present",
+      "class_number": 9,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "744d63ff-c977-49f4-8d64-9a10988a0174",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-17",
+      "status": "present",
+      "class_number": 10,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "4ad4484b-958a-4b1c-8672-51febc9ae3f3",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-19",
+      "status": "absent",
+      "class_number": 11,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "78cb7dbb-c1f8-4674-80e9-d2f619531170",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-24",
+      "status": "present",
+      "class_number": 12,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "c11d9ba9-8318-48ee-bb68-5d105a29dbd7",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-26",
+      "status": "present",
+      "class_number": 13,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "2fd8ad63-fb97-4979-9a20-57a962ef84a9",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-08-31",
+      "status": "absent",
+      "class_number": 14,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "6d5a3265-33eb-4192-b638-66125f2e71d4",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-02",
+      "status": "absent",
+      "class_number": 15,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e239330b-e1eb-4d28-ab57-949cce3e0cbb",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-07",
+      "status": "present",
+      "class_number": 16,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "0f946c72-7bb8-4ee1-b390-5ad54fe3b8cc",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-09",
+      "status": "absent",
+      "class_number": 17,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "f8c04bf0-d247-4b5a-9520-ca167d0af68b",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-14",
+      "status": "absent",
+      "class_number": 18,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "a3ff8b68-67e4-49bb-951b-b1d7a5e0c490",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-16",
+      "status": "present",
+      "class_number": 19,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e20367de-b298-4a5c-ad80-be8a83a74f83",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "date": "2026-09-21",
+      "status": "present",
+      "class_number": 20,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "58951ef5-4645-40c2-a1ad-bf2c4ad0b77d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-14",
+      "status": "present",
+      "class_number": 1,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "c0578616-8633-4350-8f5a-535d3693f108",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-16",
+      "status": "present",
+      "class_number": 2,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "aedffa60-46b3-4384-bfd9-a3d95ca12049",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-21",
+      "status": "present",
+      "class_number": 3,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "bd0abcf1-64af-49d3-b4f0-616c09fcabe8",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-23",
+      "status": "present",
+      "class_number": 4,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "cd17625e-d8da-463b-81bc-d8af5926cc19",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-28",
+      "status": "present",
+      "class_number": 5,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "32f415b2-724c-4282-8e0f-30dc313b8674",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-07-30",
+      "status": "present",
+      "class_number": 6,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e958e682-f6ed-4b6d-a243-9c7fae5cd75b",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-04",
+      "status": "present",
+      "class_number": 7,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "1d25a890-b6f1-483c-84b7-660aa78454e1",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-06",
+      "status": "present",
+      "class_number": 8,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "953d1124-b51e-491e-8b05-b56c257a9694",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-11",
+      "status": "present",
+      "class_number": 9,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "df54f9fd-3260-469d-81d6-4a345afd7475",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-13",
+      "status": "present",
+      "class_number": 10,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "52f42611-05c9-4f7e-a1a3-f9f97bd558fc",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-18",
+      "status": "present",
+      "class_number": 11,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "18e6cff5-da69-4918-add3-016ef1268c6b",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-20",
+      "status": "present",
+      "class_number": 12,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "480a47cc-46a0-4019-91ca-d5b3175d092b",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-25",
+      "status": "present",
+      "class_number": 13,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "1ec273fc-b06a-49c3-9520-6358603b880d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-08-27",
+      "status": "present",
+      "class_number": 14,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "e0cc4bbd-b07d-4561-88aa-c1ef7a9cc1e4",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-01",
+      "status": "present",
+      "class_number": 15,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "ae8f65a8-591a-4f89-b267-7892a72768e5",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-03",
+      "status": "present",
+      "class_number": 16,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "69b1a982-f681-42cd-af09-74ce06291e1d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-08",
+      "status": "present",
+      "class_number": 17,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "612435ce-5a22-4bbb-b4e9-86353f62577d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-10",
+      "status": "present",
+      "class_number": 18,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "a722e2e8-3ee4-453b-b86d-45981dc7c761",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-15",
+      "status": "present",
+      "class_number": 19,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "3047f8c9-a0e6-4732-a89d-0c1d329f7993",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "date": "2026-09-17",
+      "status": "absent",
+      "class_number": 20,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "2584f8b0-2bed-454e-81e9-b7fe6d2de2f9",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-15",
+      "status": "present",
+      "class_number": 1,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "8315d91e-f47f-47c2-9652-09597d0f4c28",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-17",
+      "status": "present",
+      "class_number": 2,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "b5d0aeee-f611-4717-9356-2fa72a7b789e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-22",
+      "status": "present",
+      "class_number": 3,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "9b5a1625-79cb-46d6-87f2-0a5d004ba90e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-24",
+      "status": "present",
+      "class_number": 4,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "30c40e56-793d-4ddc-af5f-65958138d6bf",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-29",
+      "status": "present",
+      "class_number": 5,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "7e9ad7e0-0a5e-4997-b99d-bd0b2413690a",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-07-31",
+      "status": "absent",
+      "class_number": 6,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "bdbd199f-5d03-43d1-be8a-7b830b509cc2",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-05",
+      "status": "present",
+      "class_number": 7,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "91730b1f-eebd-4a12-b484-1e585ff4bb6d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-07",
+      "status": "present",
+      "class_number": 8,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "ba272b37-c278-43ac-a570-713613f822b2",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-12",
+      "status": "present",
+      "class_number": 9,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "2c27a523-74df-43f9-8faa-ff561b1dc73a",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-14",
+      "status": "present",
+      "class_number": 10,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "7ba00a64-1df3-4a7f-afde-fc7cb1347dab",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-19",
+      "status": "present",
+      "class_number": 11,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "3ec451f7-1cdf-4bce-91df-4b6308ada48e",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-21",
+      "status": "present",
+      "class_number": 12,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "b0772851-b8fa-4032-998c-7eb719eaf240",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-26",
+      "status": "present",
+      "class_number": 13,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "ed1358cd-797f-44aa-883c-4dd43315cf6b",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-08-28",
+      "status": "present",
+      "class_number": 14,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "2d6e4511-84c7-462e-a9a1-52978832a503",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-02",
+      "status": "present",
+      "class_number": 15,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "d362647e-08a8-4ed2-babe-bfc16db73534",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-04",
+      "status": "present",
+      "class_number": 16,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "0f5f8496-e001-4df6-8f97-7ad293950bfe",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-09",
+      "status": "present",
+      "class_number": 17,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "ac8d8179-0d20-47ed-ae3d-55cb86951c77",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-11",
+      "status": "present",
+      "class_number": 18,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "46e09803-3979-4193-bb50-b5a3b9469460",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-16",
+      "status": "present",
+      "class_number": 19,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "b8384bd1-243b-4510-ac26-bf7e373ac827",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "date": "2026-09-18",
+      "status": "absent",
+      "class_number": 20,
+      "notes": "",
+      "created_at": "2026-09-22T01:53:30.528Z"
+    }
+  ],
+  "timetable": [
+    {
+      "id": "430608ff-ad2c-4215-ba1e-fbf548680a49",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "day_of_week": 1,
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "room": "C-302",
+      "faculty": "Dr. R. Menon",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "29388b98-5b35-4609-a317-b3f7fb0ea1af",
+      "user_id": "demo-student-id-001",
+      "subject_id": "1d6ea000-b742-42e6-ac49-4df3938b4389",
+      "day_of_week": 4,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "C-302",
+      "faculty": "Dr. R. Menon",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "6979e97c-e993-4d3c-8b74-70d96d4c4d85",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "day_of_week": 2,
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "room": "C-105",
+      "faculty": "Prof. A. Iyer",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "15963eac-4f98-421d-b221-09d6dcc94c08",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c0c527db-8d6a-4816-8ad5-22d2d74c0c4f",
+      "day_of_week": 5,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "C-105",
+      "faculty": "Prof. A. Iyer",
+      "created_at": "2026-09-22T01:53:30.526Z"
+    },
+    {
+      "id": "e96b2733-6a70-4aab-8acd-c13508a2d6dd",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "day_of_week": 3,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "B-210",
+      "faculty": "Dr. S. Rao",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "5691b06b-272b-4227-aed1-9349fdad65c5",
+      "user_id": "demo-student-id-001",
+      "subject_id": "398cfa03-8b9e-4f34-acbd-651c1c2f6da1",
+      "day_of_week": 1,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "B-210",
+      "faculty": "Dr. S. Rao",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "f19a830d-50f6-4ddf-91d4-4f6fcad2697d",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "day_of_week": 4,
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "room": "B-114",
+      "faculty": "Prof. K. Nair",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "6cdaf60a-e027-407b-b460-61c29016c354",
+      "user_id": "demo-student-id-001",
+      "subject_id": "c3999358-cf88-4def-999a-b7fc6c3745c4",
+      "day_of_week": 2,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "B-114",
+      "faculty": "Prof. K. Nair",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "abef907c-f98f-473b-a739-5242fb38e831",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "day_of_week": 5,
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "room": "A-401",
+      "faculty": "Dr. M. Gupta",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    },
+    {
+      "id": "2cb8f1a9-5086-4467-9278-4c8962071f60",
+      "user_id": "demo-student-id-001",
+      "subject_id": "d394fc7e-2019-4c52-ad35-2c4bfe3485d5",
+      "day_of_week": 3,
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "room": "A-401",
+      "faculty": "Dr. M. Gupta",
+      "created_at": "2026-09-22T01:53:30.527Z"
+    }
+  ],
+  "goals": [],
+  "notifications": [
+    {
+      "id": "dd886e2f-6122-4bd9-a501-89ec47eeb879",
+      "user_id": "demo-student-id-001",
+      "title": "Welcome to AttendMate",
+      "message": "Your semester is ready. Review your subjects and track your attendance.",
+      "category": "info",
+      "read": false,
+      "created_at": "2026-09-22T01:53:30.528Z"
+    },
+    {
+      "id": "a543c75a-e228-45b4-a260-8e1dbc473e57",
+      "user_id": "demo-student-id-001",
+      "title": "Operating Systems needs attention",
+      "message": "Attendance is close to the 75% minimum requirement.",
+      "category": "warning",
+      "read": false,
+      "created_at": "2026-09-22T00:53:30.528Z"
+    },
+    {
+      "id": "b1063dfc-f26a-4ef0-86af-6fa1572788d0",
+      "user_id": "demo-student-id-001",
+      "title": "Great work in Software Testing",
+      "message": "You are comfortably above your target attendance.",
+      "category": "success",
+      "read": false,
+      "created_at": "2026-09-21T23:53:30.528Z"
+    }
+  ]
+}
